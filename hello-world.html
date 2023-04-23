@@ -4,7 +4,37 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Hello World</title>
-    
+    <style type="text/css">
+        body{
+            background-color: gray;
+        }
+        div{
+            background-color: #ada7a7;
+            display: inline-block;
+            width: 250px;
+            height: 250px;
+
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+
+            transition-duration: 0.5s;
+            transition-delay: 0.1s;
+        }
+        div:hover{
+            box-shadow: 1px 1px 20px whitesmoke;
+            color: ghostwhite;
+        }
+        span{
+            font-size: 20px;
+            font-weight: bold;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
 </head>
 <body>
     <div>
